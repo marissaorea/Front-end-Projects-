@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- metadata goes in head -->
+	<title>My first page</title>
+</head>
+<body>
+
+	<!-- <h1>This is my first tag</h1>
+	<h2> Another heading </h2>
+	<h3> Another </h3>
+
+	<img src="https://lh3.googleusercontent.com/U7ozM6LWzf27oFMc7AgEpxJh1BUbTRWO9JtpXSIJsbf-N20HG9pmdhCSANIigbP3vg=w300">
+	
+
+	<a href="https://na.square-enix.com/us/home">Click Me to go to Square Enix</a>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus</p>
+
+	<p>iushfiuhsdifuhsufhdufhiusdhfiusdhfishifhsdhfisuhfishifhsiufhisdhfisdhfidshidhfiudshfidhifhsihdsifhidsf</p> -->
+<!-- The following are lists: -->
+<!-- "ol" simply means and ordered list 
+"ul" means an un-ordered list (bullet points) -->
+<!-- <h4> My Color List</h4>
+<ol>
+	<li>Red </li>
+	<li>pink </li>
+	<li>blue </li>
+	<ul>
+		<li>royal blue</li>
+		<li>sky blue</li>
+
+	</ul>
+</ol>
+<ul>
+	<li><strong>Red</strong></li>
+	<li>pink </li>
+	<li>blue </li>
+</ul> -->
+
+<table border="1">
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Breed</th>
+	</tr>
+
+	<tr>
+		<td>Rusty</td> <!-- td is for each cell  -->
+		<td>2</td>
+		<td>Mutt</td>
+	</tr> 
+
+	<tr>
+			<td>Wyatt</td>
+			<td>13</td>
+			<td>Breed</td>
+		</tr>
+
+</table>
+</body>
+</html>
