@@ -1,27 +1,27 @@
+<!-- radio button -->
+<!-- select tag -->
+<!-- textarea tag -->
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Form Demo</title>
+	<title>Input Demo</title>
 </head>
 <body>
 
-<h1>Login</h1>
+<p>Do you prefer cats or dogs?</p>
 
-<!-- action - where the form sends the data to  -->
-<!-- method - what HTTP method (get/post) -->
+<form>
+	<label for="dogs">Dogs: </label>
+	<input name="petChoice" id="dogs" type="radio"
+	value="DOG">
 
-<form action="http://www.wikipedia.org"> 
-	<label for="username">Username:</label>
-	<input id="username" type="text" type="text" placeholder="username" required> 
+	<label for="cats">Cats: </label>
+	<input name="petChoice" id="cats" type="radio"
+	value="CATS">
 
-	<label for="password" >Password:</label>
-	<input id="password" type="password" placeholder="password" required>
-	<button>Submit</button>
-	<input type="submit">
+	<button>Go!</button>
 </form>
-
-
-
 
 </body>
 </html>
