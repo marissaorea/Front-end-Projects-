@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>My first HTML form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+<form>
+	<div>
+		<label for="firstname">Firstname: </label>
+			<input type="text" placeholder="John" required/>
+
+		<label for="lastname">Lastname: </label>
+			<input type="text" placeholder="Smith" required/>
+	</div>
+
+	<div>
+		<label for="male-selection">Male: </label>
+			<input name="Gender" type="radio" required>
+	
+		<label for="female-selection">Female: </label>
+			<input name="Gender" type="radio" required>
+
+		<label for="other-selection">Other: </label>
+			<input name="Gender" type="radio" required>
+	</div>
+
+	<div> 
+		<label for="email-input">Email: </label>
+			<input type="email" placeholder="email" required>
+		<label for="password-input">Password: </label>
+			<!-- Pattern requirements should be in regular & curly brackets  -->
+			<!-- [A-Za-z] this if for letters upper & lower -->
+			<!-- {start-end, range of numbers} -->
+		<!-- 	[A-Za-z1-9] this is both letters AND numbers  -->
+			<input type="password" pattern="[A-Za-z]{5,10}" placeholder="your password" required>
+	</div>
+
+	<div>
+		<label for="birthday-input">Birthday: </label>
+		<select name="month">
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+		</select>
+
+		<select name="date">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+
+		<select name="year">
+			<option value="1989">1989</option>
+			<option value="1990">1990</option>
+			<option value="1991">1991</option>
+		</select>
+	</div>
+	
+	<div>
+		<label for="checkbox">I agree to the terms and conditions</label>
+		<input type="checkbox" name="checkbox" id="checkbox"/>
+	</div>
+	
+	<div>
+		<input type="submit" value="Submit"/>
+	</div>
+
+</form>
+
+
+</body>
+</html>
